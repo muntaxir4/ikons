@@ -12,7 +12,8 @@ function App() {
   const [svgString, setSvgString] = useState("");
 
   return (
-    <div className="flex flex-col justify-center items-center w-full h-full gap-8">
+    <div className="flex flex-col justify-center items-center w-full h-full gap-8 overflow-auto">
+      <h1 className="text-4xl font-bold mb-20">iKons</h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm m-2 justify-items-center">
         <label>
           Rows in One Page:
